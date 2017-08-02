@@ -1,0 +1,22 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/group1"
+    tools:context="yomko.swipetest.FragmentA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AAAAAAAAAAAAAAAAAAAA" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/momo2"
+        android:layout_margin="16dp"
+        android:onClick="GoToFragment"
+        android:text="Fragment D"
+        />
+
+</FrameLayout>
